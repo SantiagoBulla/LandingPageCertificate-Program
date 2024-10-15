@@ -1,0 +1,25 @@
+.item-container{
+    display: flex;
+    width: 180px;
+    padding: 10px;
+}
+
+.item-container img{
+    width: 50px;
+}
+
+.info{
+    width: 88%;
+    padding-left: 15px;
+}
+
+.info p, h3{
+    margin: 0;
+    margin-top: 5px;
+    color: var(--blue-color);
+}
+
+
+.info p{
+    font-weight: 700;
+}

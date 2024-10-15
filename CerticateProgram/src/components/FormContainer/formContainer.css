@@ -1,0 +1,77 @@
+.title {
+    background-color: var(--blue-color);
+    padding: 40px;
+    display: flex;
+}
+
+.data{
+    width: 85%;
+}
+
+.btn-open{
+    width: 15%;
+    align-self: center;
+    cursor: pointer;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+.title h1 mark {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.title p {
+    position: relative;
+    padding-left: 80px;
+    padding-top: 5px;
+    margin: 0;
+    color: var(--light-green);
+}
+
+.title p::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    left: 0;
+    top: 60%;
+    translate: 0 -50%;
+    background-color: var(--light-green);
+}
+
+.open-form{
+    height: 40px;
+    width: 40px;
+}
+
+@media (min-width: 768px) {
+    .title h1 {
+        font-size: 2.3rem;
+    }
+    
+    .title h1 mark {
+        font-size: 1.5rem;
+    }
+    
+    .title p {        
+        font-size: 1.2rem;
+    }
+
+    .open-form{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title  {
+        padding-bottom: 50px;
+    }
+}

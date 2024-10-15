@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-img {
+    max-width: 100%;
+}
+
+.dates{
+    background-color: var(--light-green);
+    padding: 30px 25px;
+}
+
+.dates p{
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.dates p:nth-child(1){
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.dates p:nth-child(2){
+    font-size: 1.8rem;
+}
+
+.items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+@media (min-width: 1024px) {
+   .items{
+    padding: 15px 0;
+   }
+}

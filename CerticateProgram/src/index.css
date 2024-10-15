@@ -1,0 +1,26 @@
+:root {
+  --blue-color: #202345;
+  --light-blue: #4582FF;
+  --light-green: #DBF126;
+  --light-yellow: #ECD193;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    flex-direction: row-reverse;
+  }
+}
